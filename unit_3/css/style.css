@@ -1,0 +1,21 @@
+body{
+background-image: url(/Users/orlandomorales/Documents/GitHub/josue8100.github.io/unit_3/images/handyman.jpg);
+background-color: #000000;
+}
+h1{
+color: #FF0000;
+text-align: center;
+font-style: bold;
+}
+#slogan{
+color:#FFFFFF;
+text-align: center;
+font-style: italic;
+}
+p{
+text-align: center;
+color:#FFFFFF;
+}
+img{
+text-align: center;
+}
