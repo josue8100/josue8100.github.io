@@ -2,7 +2,7 @@
 
 body{
 background-image: url(/Users/orlandomorales/Documents/GitHub/josue8100.github.io/unit_3/images/handyman.jpg);
-background-color: #000000;
+background-color: #FFFFFF;
 }
 h1{
 color: #FF0000;
@@ -11,14 +11,14 @@ font-style: bold;
 font-family: 'Noto Sans', sans-serif;
 }
 #slogan{
-color:#FFFFFF;
+color:#000000;
 text-align: center;
 font-style: italic;
 font-family: 'Noto Sans', sans-serif;
 }
 p{
 text-align: center;
-color:#FFFFFF;
+color:#000000;
 font-family: 'Noto Sans', sans-serif;
 }
 img{
