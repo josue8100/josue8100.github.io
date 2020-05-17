@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap)
+
 body{
 background-image: url(/Users/orlandomorales/Documents/GitHub/josue8100.github.io/unit_3/images/handyman.jpg);
 background-color: #000000;
@@ -6,15 +8,18 @@ h1{
 color: #FF0000;
 text-align: center;
 font-style: bold;
+font-family: 'Noto Sans', sans-serif;
 }
 #slogan{
 color:#FFFFFF;
 text-align: center;
 font-style: italic;
+font-family: 'Noto Sans', sans-serif;
 }
 p{
 text-align: center;
 color:#FFFFFF;
+font-family: 'Noto Sans', sans-serif;
 }
 img{
 text-align: center;
