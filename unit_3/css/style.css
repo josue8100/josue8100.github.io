@@ -28,54 +28,54 @@ margin: 4em;
 }
 header {
     background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
+    border: 1em black solid;
+    padding: 2.0em;
 }
 nav {
     background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
+    border: 1em black solid;
+    padding: 2.0em;
 }
 aside {
     background-color: #FFC675;
-    border: 1px black solid;
-    padding: 20px;
+    border: 1em black solid;
+    padding: 2.0em;
 }
 article {
     background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
+    border: 1em black solid;
+    padding: 2.0em;
 }
 footer {
     background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
+    border: 1em black solid;
+    padding: 2.0em;
 }
 div {
     background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
+    border: 1em black solid;
+    padding: 2.0em;
 }
 #two_column {
     background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
+    border: 1em black solid;
+    padding: 2em;
 }
 
 #left {
     background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
+    border: 0.5em black solid;
+    padding: 2em;
     float: left;
     width: 30%;
 }
 
 #right {
     background-color: pink;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 62%;
+    border: 1em black solid;
+    padding: 2em;
+    float:right;   
+    width: 50%;
 }
 .clearfix:after {
     visibility: hidden;
@@ -84,4 +84,13 @@ div {
     content: " ";
     clear: both;
     height: 0;
+}
+@media screen and (min-width:[960]px) and (max-width:[1]px) {
+ #slogan {max-width:960px; min-width:320px; margin:2 auto;}
+ #left {max-width:400px; min-width:320px; margin:2 auto; float:auto;}
+ #rigth {max-width:400px; min-width:320px; margin:2 auto; float:auto;}
+ #column_two {max-width:400px; min-width:320px; margin:2 auto;}
+ #slogan {max-width:400px; min-width:320px; margin:2 auto;}
+ img {max-width:960px; min-width:320px; margin:2 auto;}
+ div {max-width:960px; min-width:320px; margin:2 auto;}
 }
